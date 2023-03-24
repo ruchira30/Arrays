@@ -7,12 +7,12 @@ int i;
 printf("Enter Array: \n");
 for(i=0;i<5;i++)
 {
-scanf("%c",&arr[i]);
+scanf("%d",&arr[i]);
 }
 //Print array
 for(i=0;i<5;i++)
 {
-printf("The input array is %c",arr[i]);
+printf("%d",arr[i]);
 }
 return 0;
 }
