@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int arr[];
+int arr[100];
 //Taking an array input from the user
 int i;
 printf("Enter Array: \n");
